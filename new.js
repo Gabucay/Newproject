@@ -14,7 +14,7 @@ const projectImages = [
 ];
 
 const projectLinks = [
-  "newproject/jeff.html","CafeMenu.html","colored_markers.html","Registration_form.html",
+  "https://gabucay.github.io/port/CatPhotoApp.html","CafeMenu.html","colored_markers.html","Registration_form.html",
   "SURVEY_FORM.html","Rothko Painting.html","PhotoGallery.html","NutritionLabel.html",
   "AccessibilityQuiz.html","BuildaTributePage.html","BalanceSheet.html","fCCCatPainting.html",
   "Piano.html","TechnicalDocumentation.html","CitySkyline.html","Magazine.html",
@@ -86,4 +86,5 @@ function toggleMode() {
   document.body.classList.toggle("dark-mode");
   const btn = document.getElementById("mode-btn");
   btn.textContent = document.body.classList.contains("dark-mode") ? "☀️ Light Mode" : "🌙 Dark Mode";
+
 }
