@@ -7,7 +7,7 @@ const projectNames = [
 ];
 
 const projectImages = [
-  "pic/codeman.jpg","cafe.jpg","markers.jpg","registration.jpg","anime.jpg",
+  "codeman.jpg","cafe.jpg","markers.jpg","registration.jpg","anime.jpg",
   "rothko.jpg","gallery.jpg","nutrition.jpg","quiz.jpg","tribute.jpg",
   "balance.jpg","fcccat.jpg","piano.jpg","techdoc.jpg","skyline.jpg",
   "magazine.jpg","product.jpg","ferris.jpg"
@@ -88,3 +88,4 @@ function toggleMode() {
   btn.textContent = document.body.classList.contains("dark-mode") ? "☀️ Light Mode" : "🌙 Dark Mode";
 
 }
+
