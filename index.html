@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="new.css">
+    
+</head>
+<body>
+    <aside>
+  <header>
+    <h1>Fortfolio</h1>
+    <p>Dailight ✨</p>
+  </header>
+  <nav>
+    <button onclick="showContent('about')">About</button>
+    <button onclick="showContent('projects')">Projects</button>
+    <button onclick="showContent('certificate')">Certificate</button>
+    <button onclick="showContent('contact')">Contact</button>
+  </nav>
+  <div>
+    <button class="toggle-btn" onclick="toggleMode()" id="mode-btn">🌙 Dark / ☀️ Light</button>
+  </div>
+</aside>
+
+<main id="content">
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card about-card">
+      <img src="profile.jpg" alt="My Picture">
+      <div>
+        <h3>Jefferson A. Gabucay</h3>
+        <p>BSIT Student | Learning Web Development (HTML, CSS, JS)</p>
+        <p>Always eager to explore and improve my coding skills.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+    <script src="new.js"></script>
+</body>
+</html>
