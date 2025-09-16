@@ -99,10 +99,26 @@ const projectNames = [
 ];
 
 const projectImages = [
-  "codeman.jpg","codeman.jpg","codeman.jpg","codeman.jpg","codeman.jpg",
-  "codeman.jpg","codeman.jpg","codeman.jpg","codeman.jpg","codeman.jpg",
-  "codeman.jpg","codeman.jpg","codeman.jpg","codeman.jpg","codeman.jpg",
-  "codeman.jpg","codeman.jpg"
+  "jeff/catapp.png",
+  "jeff/campercafe.png",
+  "jeff/color.png",
+  "jeff/registration.png",
+  "jeff/landing.png",
+  "jeff/rothko.png",
+  "jeff/photo _gallery.png",
+  "jeff/nurtrition_label.png",
+  "jeff/acceibility_quiz.png",
+  "jeff/tribute_page.png",
+  "jeff/balance_sheet.png",
+  "jeff/fcc_cat.png",
+  "jeff/piano.png",
+  "jeff/techmical_documentation.png",
+  "jeff/skyline.png",
+  "jeff/Magazine.png",
+   "jeff/anime_survey.png",
+  "jeff/ferris_wheel.png"
+
+ 
 ];
 
 const projectLinks = [
@@ -168,7 +184,7 @@ function showContent(tab) {
         <h2>Certificates</h2>
         <div class="card">
           <h3>Web Development Certificate</h3>
-          <img src="certificate.jpg" alt="Certificate" style="width:100%; border-radius:8px; margin-top:10px;">
+          <img src="jeff/certificate.png" style="width:100%; border-radius:8px; margin-top:10px;">
           <p>Certified in HTML, CSS, and JavaScript fundamentals.</p>
         </div>
       </section>
@@ -178,9 +194,9 @@ function showContent(tab) {
       <section id="contact">
         <h2>Contact Me</h2>
         <div class="card">
-          <p><strong>Email:</strong> youremail@example.com</p>
-          <p><strong>Phone:</strong> +63 9XX XXX XXXX</p>
-          <p><strong>Address:</strong> Cebu City, Philippines</p>
+          <p><strong>Email:</strong>gabucayjeffersona@gmail.com</p>
+          <p><strong>Phone:</strong> 09678378499</p>
+          <p><strong>Address:</strong> Mambog,BIN,Rizal</p>
         </div>
       </section>
     `;
