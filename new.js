@@ -150,7 +150,7 @@ function showContent(tab) {
       <section id="about">
         <h2>About Me</h2>
         <div class="card about-card">
-          <img src="profile.jpg" alt="My Picture">
+          <img src="jeff/Screenshot_2025-09-10_151440-removebg-preview.png" alt="My Picture">
           <div>
             <h3>Jefferson A. Gabucay</h3>
             <p>BSIT Student | Learning Web Development (HTML, CSS, JS)</p>
@@ -208,5 +208,6 @@ function toggleMode() {
   const btn = document.getElementById("mode-btn");
   btn.textContent = document.body.classList.contains("dark-mode") ? "☀️ Light Mode" : "🌙 Dark Mode";
 }
+
 
 
